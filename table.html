@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+    }
+    th, td {
+        width: 50px;
+        height: 50px;
+    }
+</style>
+<body>
+    <div style="width: 1200px; margin: 0 auto;"></div>
+    <a href="index.html" target="_blank">Home</a>
+    <table>
+        <caption>
+            My Table
+        </caption>
+        <tr>
+            <td colspan="2" style="background-color: gray;"></td>
+            <td style="background-color: brown;"></td>
+            <td style="background-color: brown;"></td>
+            <td style="background-color: brown;"></td>
+            <td rowspan="3" style="background-color: lime;"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="background-color: darkgreen;"></td>
+            <td style="background-color: brown;"></td>
+            <td rowspan="2" colspan="3" style="background-color: yellow;"></td>
+        </tr>
+        <tr>
+            <td style="background-color: brown;"></td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2" style="background-color: blue;"></td>
+            <td style="background-color: brown;"></td>
+            <td style="background-color: brown;"></td>
+            <td rowspan="2" style="background-color: darkgreen;"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: grey;"></td>
+        </tr>
+    </table>
+</body>
+</html>
